@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="LVGL.Portable.vcxitems.filters" />
+  <Import Project="LVGL.Drivers.vcxitems.filters" />
+  <ItemGroup>
+    <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="lv_drv_conf.h" />
+    <ClInclude Include="lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.h" />
+    <ClInclude Include="lvgl\src\draw\nxp\lv_gpu_nxp.h" />
+    <ClInclude Include="lvgl\demos\button\events_init.h">
+      <Filter>lvgl\demos\button</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\button\gui_guider.h">
+      <Filter>lvgl\demos\button</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\button\guider_customer_fonts\guider_customer_fonts.h">
+      <Filter>lvgl\demos\button\guider_customer_fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\button\guider_fonts\guider_fonts.h">
+      <Filter>lvgl\demos\button\guider_fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\coffee_pour\coffee_events_init.h">
+      <Filter>lvgl\demos\coffee_pour</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\coffee_pour\coffee_gui_guider.h">
+      <Filter>lvgl\demos\coffee_pour</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\coffee_pour\guider_fonts\coffee_guider_fonts.h">
+      <Filter>lvgl\demos\coffee_pour\guider_fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\coffee_pour\guider_customer_fonts\coffee_guider_customer_fonts.h">
+      <Filter>lvgl\demos\coffee_pour\guider_customer_fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\saver_events_init.h">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\saver_gui_guider.h">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\guider_customer_fonts\saver_guider_customer_fonts.h">
+      <Filter>lvgl\demos\screensaver\guider_customer_fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\guider_fonts\saver_guider_fonts.h">
+      <Filter>lvgl\demos\screensaver\guider_fonts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="LVGL.Simulator.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mile.Project.Properties.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.c" />
+    <ClCompile Include="lvgl\src\draw\nxp\lv_gpu_nxp.c" />
+    <ClCompile Include="lvgl\demos\button\events_init.c">
+      <Filter>lvgl\demos\button</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\gui_guider.c">
+      <Filter>lvgl\demos\button</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\setup_scr_blueCounter.c">
+      <Filter>lvgl\demos\button</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\guider_fonts\lv_font_arial_11.c">
+      <Filter>lvgl\demos\button\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\guider_fonts\lv_font_arial_34.c">
+      <Filter>lvgl\demos\button\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\guider_fonts\lv_font_arial_40.c">
+      <Filter>lvgl\demos\button\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\guider_fonts\lv_font_montserratMedium_13.c">
+      <Filter>lvgl\demos\button\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\guider_fonts\lv_font_montserratMedium_34.c">
+      <Filter>lvgl\demos\button\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\images\_btn_alpha_65x65.c">
+      <Filter>lvgl\demos\button\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\button\images\_logo_alpha_37x13.c">
+      <Filter>lvgl\demos\button\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\coffee_events_init.c">
+      <Filter>lvgl\demos\coffee_pour</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\coffee_gui_guider.c">
+      <Filter>lvgl\demos\coffee_pour</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\coffee_setup_scr_coffeePour.c">
+      <Filter>lvgl\demos\coffee_pour</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\_logo_alpha_60x20.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef01.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef02.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef03.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef04.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef05.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef06.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef07.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef08.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef09.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef10.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef11.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef12.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef13.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef14.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef15.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef16.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef17.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef18.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef19.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef20.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef21.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef22.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef23.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef24.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef25.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef26.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef27.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef28.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef29.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef30.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef31.c">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\guider_fonts\lv_font_arial_16.c">
+      <Filter>lvgl\demos\coffee_pour\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\guider_fonts\lv_font_arial_18.c">
+      <Filter>lvgl\demos\coffee_pour\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\guider_fonts\lv_font_montserratMedium_16.c">
+      <Filter>lvgl\demos\coffee_pour\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\coffee_pour\guider_fonts\lv_font_simsun_12.c">
+      <Filter>lvgl\demos\coffee_pour\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\saver_events_init.c">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\saver_gui_guider.c">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\saver_setup_scr_screen.c">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\guider_fonts\saver_lv_font_simsun_18.c">
+      <Filter>lvgl\demos\screensaver\guider_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\images\_grute_alpha_100x100.c">
+      <Filter>lvgl\demos\screensaver\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\customer.c">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\images\_my_alpha_100x100.c">
+      <Filter>lvgl\demos\screensaver\images</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LVGL.Simulator.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LVGL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freetype.props" />
+    <None Include="lvgl\demos\coffee_pour\images\images.mk">
+      <Filter>lvgl\demos\coffee_pour\images</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lvgl\demos\button">
+      <UniqueIdentifier>{b7761e1c-5488-4170-9bdc-66197c8d0aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\button\guider_customer_fonts">
+      <UniqueIdentifier>{0c832230-58d1-4c9a-87b4-becf51ba29f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\button\guider_fonts">
+      <UniqueIdentifier>{ae84c4d2-e02a-4079-a24e-c1a90bd12a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\button\images">
+      <UniqueIdentifier>{46c1f7cf-5199-4697-8fd3-64cd68bdf66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\coffee_pour">
+      <UniqueIdentifier>{8b8559f8-a042-4d26-a40a-eddeb5cbf180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\coffee_pour\guider_customer_fonts">
+      <UniqueIdentifier>{a4d868bc-5dea-4a7b-b898-cf3324d8cc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\coffee_pour\guider_fonts">
+      <UniqueIdentifier>{2d5aefc1-5c11-462d-851c-f868f116cfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\coffee_pour\images">
+      <UniqueIdentifier>{09c9a3f5-db0b-4563-819a-ba14500db1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver">
+      <UniqueIdentifier>{70635cf7-3c89-4aaf-9896-818edff16a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver\guider_customer_fonts">
+      <UniqueIdentifier>{b9b575e4-fc84-462a-b411-ea0f5dd3d391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver\guider_fonts">
+      <UniqueIdentifier>{fdaad3cf-3d69-4e2a-a366-948629184899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver\images">
+      <UniqueIdentifier>{e0a3e3b5-c269-4ea7-ba4e-9e10d5eb471a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

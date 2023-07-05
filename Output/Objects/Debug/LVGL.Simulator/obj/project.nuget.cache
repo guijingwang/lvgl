@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZHUocKrye9Viv/9TdGariIVi+bRYaNuDbKgip+yTL0dPmC7D4/vyDmFVi1qQuvDIHaaV4hiTvsAwCOcs0Q4iww==",
+  "success": true,
+  "projectFilePath": "D:\\lvgl\\lvgl v8\\lv_sim_visual_studio\\LVGL.Simulator\\LVGL.Simulator.vcxproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\vc-ltl\\5.0.5\\vc-ltl.5.0.5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\yy.nuget.import.helper\\1.0.0.4\\yy.nuget.import.helper.1.0.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
