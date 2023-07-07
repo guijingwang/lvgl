@@ -178,9 +178,6 @@ static void examples(void);
 
 int main()
 {
-
-
-
     lv_init();
 
 
@@ -192,6 +189,7 @@ int main()
     //setup_ui(&guider_ui);
     //coffee_setup_ui(&coffee_guider_ui);
     saver_setup_ui(&saver_guider_ui);
+
 
     //examples();
     while (!lv_win32_quit_signal)

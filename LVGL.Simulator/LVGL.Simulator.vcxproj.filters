@@ -43,6 +43,9 @@
     <ClInclude Include="lvgl\demos\screensaver\guider_fonts\saver_guider_fonts.h">
       <Filter>lvgl\demos\screensaver\guider_fonts</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\customer_trailing.h">
+      <Filter>lvgl\demos\screensaver</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -222,6 +225,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\demos\screensaver\images\_my_alpha_100x100.c">
       <Filter>lvgl\demos\screensaver\images</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\customer_trailing.c">
+      <Filter>lvgl\demos\screensaver</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

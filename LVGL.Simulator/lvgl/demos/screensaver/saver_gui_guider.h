@@ -14,18 +14,35 @@ extern "C" {
 #include "lvgl/demos/screensaver/guider_fonts/saver_guider_fonts.h"
 #include <math.h>
 
+#include "customer_trailing.h"
+
 typedef struct
 {
 	lv_obj_t *screen;
     bool screen_del;
-	lv_obj_t *screen_img_1;
-    lv_obj_t *screen_img_2;
+	lv_obj_t *screen_img_11;
+    lv_obj_t* screen_img_12;
+    lv_obj_t* screen_img_13;
+    lv_obj_t* screen_img_14;
+    lv_obj_t* screen_img_15;
+    lv_obj_t* screen_img_16;
+    lv_obj_t* screen_img_17;
+    lv_obj_t* screen_img_18;
+
+    lv_obj_t *screen_img_21;
+    lv_obj_t* screen_img_22;
+    lv_obj_t* screen_img_23;
+    lv_obj_t* screen_img_24;
+    lv_obj_t* screen_img_25;
+    lv_obj_t* screen_img_26;
+    lv_obj_t* screen_img_27;
+    lv_obj_t* screen_img_28;
 
 	
     lv_obj_t *user_screen;
     bool user_screen_del;
     lv_obj_t *user_screen_sw_1;
-    lv_obj_t* user_screen_img_1;
+    lv_obj_t *user_screen_img_1;
 }saver_lv_ui;
 
 
@@ -39,7 +56,6 @@ void saver_setup_ui(saver_lv_ui*ui);
 void saver_setup_scr_screen(saver_lv_ui*ui);
 void user_setup_scr_screen(saver_lv_ui* ui);
 
-void my_timer_cb(lv_timer_t* t);
 void user_screen_to_saver_timer_cb(lv_timer_t* t);
 
 void events_init_saver_user(saver_lv_ui* ui);

@@ -54,16 +54,6 @@ static void user_sw_1_event_handler(lv_event_t* e)
         else {
             lv_obj_clear_flag(saver_guider_ui.user_screen_img_1, LV_OBJ_FLAG_HIDDEN);
         }
-
-        //lv_obj_t* act_scr = lv_scr_act();
-        //lv_disp_t* d = lv_obj_get_disp(act_scr);
-        //if (d->prev_scr == NULL && (d->scr_to_load == NULL || d->scr_to_load == act_scr))
-        //{
-        //    if (saver_guider_ui.screen_del == true)
-        //        saver_setup_scr_screen(&saver_guider_ui);
-        //    lv_scr_load_anim(saver_guider_ui.screen, LV_SCR_LOAD_ANIM_NONE, 100, 100, true);
-        //    saver_guider_ui.user_screen_del = true;
-        //}
         break;
     }
     default:
@@ -85,13 +75,12 @@ static void saver_screen_anim_event_handler(lv_event_t* e)
     {
     case LV_EVENT_SCREEN_UNLOAD_START:
     {
-        lv_timer_del(task1);
+        lv_timer_del(timer1);
         break;
     }
     case LV_EVENT_SCREEN_LOADED:
     {
-        task1 = lv_timer_create(my_timer_cb, 1, 0);
-        lv_timer_set_repeat_count(task1, -1);
+        timer1_create();
         break;
     }
     default:

@@ -42,6 +42,7 @@
     <ClInclude Include="lvgl\demos\coffee_pour\coffee_gui_guider.h" />
     <ClInclude Include="lvgl\demos\coffee_pour\guider_customer_fonts\coffee_guider_customer_fonts.h" />
     <ClInclude Include="lvgl\demos\coffee_pour\guider_fonts\coffee_guider_fonts.h" />
+    <ClInclude Include="lvgl\demos\screensaver\customer_trailing.h" />
     <ClInclude Include="lvgl\demos\screensaver\guider_customer_fonts\saver_guider_customer_fonts.h" />
     <ClInclude Include="lvgl\demos\screensaver\guider_fonts\saver_guider_fonts.h" />
     <ClInclude Include="lvgl\demos\screensaver\saver_events_init.h" />
@@ -110,6 +111,7 @@
     <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef31.c" />
     <ClCompile Include="lvgl\demos\coffee_pour\images\_logo_alpha_60x20.c" />
     <ClCompile Include="lvgl\demos\screensaver\customer.c" />
+    <ClCompile Include="lvgl\demos\screensaver\customer_trailing.c" />
     <ClCompile Include="lvgl\demos\screensaver\guider_fonts\saver_lv_font_simsun_18.c" />
     <ClCompile Include="lvgl\demos\screensaver\images\_grute_alpha_100x100.c" />
     <ClCompile Include="lvgl\demos\screensaver\images\_my_alpha_100x100.c" />

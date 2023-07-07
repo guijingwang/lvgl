@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\lvgl\\lvgl v8\\lv_sim_visual_studio\\LVGL.Simulator\\LVGL.Simulator.vcxproj": {}
+    "D:\\lvgl\\git_lvgl_v8\\lvgl\\LVGL.Simulator\\LVGL.Simulator.vcxproj": {}
   },
   "projects": {
-    "D:\\lvgl\\lvgl v8\\lv_sim_visual_studio\\LVGL.Simulator\\LVGL.Simulator.vcxproj": {
+    "D:\\lvgl\\git_lvgl_v8\\lvgl\\LVGL.Simulator\\LVGL.Simulator.vcxproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\lvgl\\lvgl v8\\lv_sim_visual_studio\\LVGL.Simulator\\LVGL.Simulator.vcxproj",
+        "projectUniqueName": "D:\\lvgl\\git_lvgl_v8\\lvgl\\LVGL.Simulator\\LVGL.Simulator.vcxproj",
         "projectName": "LVGL.Simulator",
-        "projectPath": "D:\\lvgl\\lvgl v8\\lv_sim_visual_studio\\LVGL.Simulator\\LVGL.Simulator.vcxproj",
+        "projectPath": "D:\\lvgl\\git_lvgl_v8\\lvgl\\LVGL.Simulator\\LVGL.Simulator.vcxproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\lvgl\\lvgl v8\\lv_sim_visual_studio\\Output\\Objects\\Debug\\LVGL.Simulator\\obj\\",
+        "outputPath": "D:\\lvgl\\git_lvgl_v8\\lvgl\\Output\\Objects\\Debug\\LVGL.Simulator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

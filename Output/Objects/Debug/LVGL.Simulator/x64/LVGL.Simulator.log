@@ -1,2 +1,9 @@
 ﻿  customer.c
-  LVGL.Simulator.vcxproj -> D:\lvgl\lvgl v8\lv_sim_visual_studio\Output\Binaries\Debug\x64\LVGL.Simulator.exe
+  customer_trailing.c
+  saver_events_init.c
+  saver_gui_guider.c
+  saver_setup_scr_screen.c
+  LVGL.Simulator.cpp
+D:\lvgl\git_lvgl_v8\lvgl\LVGL.Simulator\LVGL.Simulator.cpp(86,9): warning C4477: “_snwprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\lvgl\git_lvgl_v8\lvgl\LVGL.Simulator\LVGL.Simulator.cpp(86,9): message : 请考虑在格式字符串中使用“%zd”
+  LVGL.Simulator.vcxproj -> D:\lvgl\git_lvgl_v8\lvgl\Output\Binaries\Debug\x64\LVGL.Simulator.exe
