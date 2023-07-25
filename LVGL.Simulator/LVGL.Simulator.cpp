@@ -30,7 +30,7 @@
 #include "lvgl/demos/button/events_init.h"
 
 #include "lvgl/demos/coffee_pour/coffee_gui_guider.h"
-#include "lvgl/demos/screensaver/saver_gui_guider.h"
+#include "lvgl/demos/screensaver/user_screen/user_gui_guider.h"
 
 
 #if _MSC_VER >= 1200
@@ -172,7 +172,6 @@ bool multiple_display_mode_initialization()
 
 coffee_lv_ui coffee_guider_ui;
 lv_ui guider_ui;
-saver_lv_ui saver_guider_ui;
 
 static void examples(void);
 
@@ -188,7 +187,7 @@ int main()
 
     //setup_ui(&guider_ui);
     //coffee_setup_ui(&coffee_guider_ui);
-    saver_setup_ui(&saver_guider_ui);
+    screensaver_set_ui();
 
 
     //examples();

@@ -11,9 +11,12 @@
 extern "C" {
 #endif
 
-#include "saver_gui_guider.h"
+#include "lvgl/demos/screensaver/user_screen/user_gui_guider.h"
 
-void saver_events_init(saver_lv_ui*ui);
+
+void saver_events_init(saver_lv_ui* ui);
+
+void events_init_saver(saver_lv_ui* ui);
 
 #ifdef __cplusplus
 }

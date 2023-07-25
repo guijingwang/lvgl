@@ -31,20 +31,32 @@
     <ClInclude Include="lvgl\demos\coffee_pour\guider_customer_fonts\coffee_guider_customer_fonts.h">
       <Filter>lvgl\demos\coffee_pour\guider_customer_fonts</Filter>
     </ClInclude>
-    <ClInclude Include="lvgl\demos\screensaver\saver_events_init.h">
-      <Filter>lvgl\demos\screensaver</Filter>
-    </ClInclude>
-    <ClInclude Include="lvgl\demos\screensaver\saver_gui_guider.h">
-      <Filter>lvgl\demos\screensaver</Filter>
-    </ClInclude>
     <ClInclude Include="lvgl\demos\screensaver\guider_customer_fonts\saver_guider_customer_fonts.h">
       <Filter>lvgl\demos\screensaver\guider_customer_fonts</Filter>
     </ClInclude>
     <ClInclude Include="lvgl\demos\screensaver\guider_fonts\saver_guider_fonts.h">
       <Filter>lvgl\demos\screensaver\guider_fonts</Filter>
     </ClInclude>
-    <ClInclude Include="lvgl\demos\screensaver\customer_trailing.h">
+    <ClInclude Include="lvgl\demos\screensaver\user_screen\user_gui_guider.h">
+      <Filter>lvgl\demos\screensaver\user_sceen</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\saver_screen\saver_events_init.h">
+      <Filter>lvgl\demos\screensaver\saver_sceenn</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\saver_screen\saver_setup_scr_screen.h">
+      <Filter>lvgl\demos\screensaver\saver_sceenn</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\circular\circular.h">
+      <Filter>lvgl\demos\screensaver\circular</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\saver_screen\customer_trailing.h">
+      <Filter>lvgl\demos\screensaver\saver_sceenn</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\customer.h">
       <Filter>lvgl\demos\screensaver</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\screensaver\user_screen\user_event.h">
+      <Filter>lvgl\demos\screensaver\user_sceen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -205,15 +217,6 @@
     <ClCompile Include="lvgl\demos\coffee_pour\guider_fonts\lv_font_simsun_12.c">
       <Filter>lvgl\demos\coffee_pour\guider_fonts</Filter>
     </ClCompile>
-    <ClCompile Include="lvgl\demos\screensaver\saver_events_init.c">
-      <Filter>lvgl\demos\screensaver</Filter>
-    </ClCompile>
-    <ClCompile Include="lvgl\demos\screensaver\saver_gui_guider.c">
-      <Filter>lvgl\demos\screensaver</Filter>
-    </ClCompile>
-    <ClCompile Include="lvgl\demos\screensaver\saver_setup_scr_screen.c">
-      <Filter>lvgl\demos\screensaver</Filter>
-    </ClCompile>
     <ClCompile Include="lvgl\demos\screensaver\guider_fonts\saver_lv_font_simsun_18.c">
       <Filter>lvgl\demos\screensaver\guider_fonts</Filter>
     </ClCompile>
@@ -226,8 +229,26 @@
     <ClCompile Include="lvgl\demos\screensaver\images\_my_alpha_100x100.c">
       <Filter>lvgl\demos\screensaver\images</Filter>
     </ClCompile>
-    <ClCompile Include="lvgl\demos\screensaver\customer_trailing.c">
-      <Filter>lvgl\demos\screensaver</Filter>
+    <ClCompile Include="lvgl\demos\screensaver\user_screen\user_gui_guider.c">
+      <Filter>lvgl\demos\screensaver\user_sceen</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\user_screen\user_setup_scr_screen.c">
+      <Filter>lvgl\demos\screensaver\user_sceen</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\saver_screen\saver_events_init.c">
+      <Filter>lvgl\demos\screensaver\saver_sceenn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\saver_screen\saver_setup_scr_screen.c">
+      <Filter>lvgl\demos\screensaver\saver_sceenn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\circular\circular.c">
+      <Filter>lvgl\demos\screensaver\circular</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\saver_screen\customer_trailing.c">
+      <Filter>lvgl\demos\screensaver\saver_sceenn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\screensaver\user_screen\user_event.c">
+      <Filter>lvgl\demos\screensaver\user_sceen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -278,6 +299,15 @@
     </Filter>
     <Filter Include="lvgl\demos\screensaver\images">
       <UniqueIdentifier>{e0a3e3b5-c269-4ea7-ba4e-9e10d5eb471a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver\user_sceen">
+      <UniqueIdentifier>{7df9bc54-1497-4cf7-a3bd-aa13c1f9ae5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver\saver_sceenn">
+      <UniqueIdentifier>{58c67172-20a7-462d-aeb0-930567928ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\demos\screensaver\circular">
+      <UniqueIdentifier>{3d0aa300-e462-4d7e-8ba1-ee55feeb10c6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

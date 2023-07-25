@@ -42,11 +42,15 @@
     <ClInclude Include="lvgl\demos\coffee_pour\coffee_gui_guider.h" />
     <ClInclude Include="lvgl\demos\coffee_pour\guider_customer_fonts\coffee_guider_customer_fonts.h" />
     <ClInclude Include="lvgl\demos\coffee_pour\guider_fonts\coffee_guider_fonts.h" />
-    <ClInclude Include="lvgl\demos\screensaver\customer_trailing.h" />
+    <ClInclude Include="lvgl\demos\screensaver\circular\circular.h" />
+    <ClInclude Include="lvgl\demos\screensaver\customer.h" />
     <ClInclude Include="lvgl\demos\screensaver\guider_customer_fonts\saver_guider_customer_fonts.h" />
     <ClInclude Include="lvgl\demos\screensaver\guider_fonts\saver_guider_fonts.h" />
-    <ClInclude Include="lvgl\demos\screensaver\saver_events_init.h" />
-    <ClInclude Include="lvgl\demos\screensaver\saver_gui_guider.h" />
+    <ClInclude Include="lvgl\demos\screensaver\saver_screen\customer_trailing.h" />
+    <ClInclude Include="lvgl\demos\screensaver\saver_screen\saver_events_init.h" />
+    <ClInclude Include="lvgl\demos\screensaver\saver_screen\saver_setup_scr_screen.h" />
+    <ClInclude Include="lvgl\demos\screensaver\user_screen\user_event.h" />
+    <ClInclude Include="lvgl\demos\screensaver\user_screen\user_gui_guider.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -110,14 +114,17 @@
     <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef30.c" />
     <ClCompile Include="lvgl\demos\coffee_pour\images\coffeePour_animimg_coffeef31.c" />
     <ClCompile Include="lvgl\demos\coffee_pour\images\_logo_alpha_60x20.c" />
+    <ClCompile Include="lvgl\demos\screensaver\circular\circular.c" />
     <ClCompile Include="lvgl\demos\screensaver\customer.c" />
-    <ClCompile Include="lvgl\demos\screensaver\customer_trailing.c" />
     <ClCompile Include="lvgl\demos\screensaver\guider_fonts\saver_lv_font_simsun_18.c" />
     <ClCompile Include="lvgl\demos\screensaver\images\_grute_alpha_100x100.c" />
     <ClCompile Include="lvgl\demos\screensaver\images\_my_alpha_100x100.c" />
-    <ClCompile Include="lvgl\demos\screensaver\saver_events_init.c" />
-    <ClCompile Include="lvgl\demos\screensaver\saver_gui_guider.c" />
-    <ClCompile Include="lvgl\demos\screensaver\saver_setup_scr_screen.c" />
+    <ClCompile Include="lvgl\demos\screensaver\saver_screen\customer_trailing.c" />
+    <ClCompile Include="lvgl\demos\screensaver\saver_screen\saver_events_init.c" />
+    <ClCompile Include="lvgl\demos\screensaver\saver_screen\saver_setup_scr_screen.c" />
+    <ClCompile Include="lvgl\demos\screensaver\user_screen\user_event.c" />
+    <ClCompile Include="lvgl\demos\screensaver\user_screen\user_gui_guider.c" />
+    <ClCompile Include="lvgl\demos\screensaver\user_screen\user_setup_scr_screen.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
